@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span class="emblema">JP</span>
+        </div>
+        <div class="titulo">
+            <h1>Centro Universitário JP</h1>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Gestão de Pessoal</a>
+                <ul>
+                    <li><a href="#">Professores</li></a>
+                    <li><a href="#">Alunos</a></li>
+                    <li><a href="#">Demais Funcionários</a></li>
+                </ul></li>
+            <li><a href="#">Finanças</a>
+                <ul>
+                    <li><a href="#">Fluxo de Caixa</a></li>
+                    <li><a href="#">Boletos</a></li>
+                </ul></li>
+            <li><a href="#">Gestão Patrimonial</a>
+                <ul>
+                    <li><a href="#">Patrimônio</a></li>
+                    <li><a href="#">Alimentos</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    
+        <div class="prof">
+            <h1 class="h1b">Professores Cadastrados</h1><br>
+            <h2>Selecione para gerenciar</h2>
+            <p> Adriano Gonçalves Macedo <br>
+                Aguinaldo Chagas Parreira <br>
+                Ailton Pereira dos Santos <br>
+                Aimoré de Morais Rosa <br>
+                Alberico Antonio <br>
+                Silveira de Assis <br>
+                Alberto Alves Viana <br>
+                Alcides de Souza Neto <br>
+                Alcidney da Souza <br>
+                Bruno da Silva <br>
+                Bruna Ferraz <br>
+                Camila da Silva <br>
+                Carlos Danilo <br>
+                Carla Aparecida <br>
+                Danilo Ezequiel <br>
+                Daniele Santos <br>
+                Douglas Rocha <br> 
+                Bruna Ferraz <br>
+                Camila da Silva <br>
+                Carlos Danilo <br>
+                Carla Aparecida <br>
+                Danilo Ezequiel <br>
+                Daniele Santos <br>
+                Douglas Rocha <br> 
+                Bruna Ferraz <br>
+                Camila da Silva <br>
+                Carlos Danilo <br>
+                Carla Aparecida <br>
+                Danilo Ezequiel <br>
+                Daniele Santos <br>
+                Douglas Rocha <br>         
+            </p>
+        </div>
+        <div class="select"> 
+            <span></span> 
+        </div>
+        <div class="foto">
+            <figcaption><h1>Bruno da Silva</h1></figcaption>
+            <img src="Bruno.jpg" alt="bruno" width="100%">
+        </div>
+
+        <div class="campo prof" style="width: 450px;"> <h1 class="h1b">Dados</h1><br>
+        <h2>Clique nos dados para alterar</h2>
+        <div id="after_submit"></div>
+        <form class="centro" id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+        <div class="row">
+            <label class="required" for="name">Nome:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="name">Endereço:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="name">Graduação:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="name">Telefone:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="name">Celular:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="name">Tel Recado:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="email">E-mail:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+        </div>
+        <div class="row">
+            <label class="required" for="message">Observações:</label><br />
+            <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; margin-top: 10px; margin-bottom: 10px; ">
+        <input id="submit_s" type="submit" value="Salvar" />
+        <input id="submit_e" type="submit" value="Editar" />
+        <input id="submit_del" type="submit" value="Excluir" />
+        <input id="submit_rel" type="submit" value="Relatório Presença" />
+        </div>
+        </form>     
+        </div>
+
+</body>
+</html>
